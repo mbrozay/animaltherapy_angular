@@ -18,10 +18,37 @@
       "tsconfig": "tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
-      "styles": [
-        "styles.css"
+      "styles": [ 
+        "../css/vendor/bootstrap/css/bootstrap.min.css",
+        "../css/css/animate.css",
+        "../css/vendor/themify/themify.css",
+        "../css/vendor/scrollbar/scrollbar.min.css",
+        "../css/vendor/swiper/swiper.min.css",
+        "styles.css",
+        "../css/css/global/global.css"
+        ],
+      "scripts": [
+        "../css/vendor/jquery.min.js",
+        "../css/vendor/jquery.migrate.min.js",
+        "../css/vendor/bootstrap/js/bootstrap.min.js",
+        "../css/vendor/jquery.smooth-scroll.min.js",
+        "../css/vendor/jquery.back-to-top.min.js",
+        "../css/vendor/scrollbar/jquery.scrollbar.min.js",
+        "../css/vendor/swiper/swiper.jquery.min.js",
+        "../css/vendor/masonry/jquery.masonry.pkgd.min.js",
+        "../css/vendor/masonry/imagesloaded.pkgd.min.js",
+        "../css/vendor/jquery.equal-height.min.js",
+        "../css/vendor/jquery.parallax.min.js",
+        "../css/vendor/jquery.wow.min.js",
+        "../css/js/global.min.js",
+        "../css/js/components/header-sticky.min.js",
+        "../css/js/components/scrollbar.min.js",
+        "../css/js/components/swiper.min.js",
+        "../css/js/components/masonry.min.js",
+        "../css/js/components/equal-height.min.js",
+        "../css/js/components/parallax.min.js",
+        "../css/js/components/wow.min.js"
       ],
-      "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
